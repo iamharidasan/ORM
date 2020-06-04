@@ -1,0 +1,9 @@
+;<div className="wrapper">
+  <Header />
+  <Nav />
+  <div className="content-wrapper">
+    <Breadcrumb title="List of Replies" />
+    <section className="content"></section>
+  </div>
+  <Footer />
+</div>

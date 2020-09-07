@@ -1,4 +1,4 @@
-;<div className="wrapper">
+<div className="wrapper">
   <Header />
   <Nav />
   <div className="content-wrapper">

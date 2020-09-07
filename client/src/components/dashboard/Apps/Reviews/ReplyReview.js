@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 import Footer from "../../Common/Footer"
 import Loader from "../../../loader/Loader"
@@ -8,7 +8,6 @@ import Nav from "../../Common/Nav"
 import { connect } from "react-redux"
 import { getReview, postReply } from "../../../../actions/rtr"
 import { withRouter } from "react-router-dom"
-import { useState } from "react"
 import { getReplies } from "../../../../actions/reply"
 
 const ReplyReview = ({
